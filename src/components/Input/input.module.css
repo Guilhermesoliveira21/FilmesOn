@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    
+    width: 100%;
+    font-size: 16px;
+    color: #000000b0;
+    padding-bottom: 2px;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #00000049;
+    outline: 0;
+    font-size: 16px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.input:hover {
+    border: 1px solid rgb(25, 112, 243);
+}
+
+.input:focus {
+    box-shadow: 0 0 6px 0px rgba(9, 147, 226, 0.527);
+}

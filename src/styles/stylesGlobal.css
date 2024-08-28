@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 10px 4em;
+    min-height: 90vh;
+    background-color: rgba(40, 44, 43, 0.938);
+}
+
+@media (max-width: 780px) {
+    .container {
+        padding: 10px 1em;
+        min-height: 90vh;
+    }
+}
+
+.containerHome {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iframe {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.filmes {
+    display: block;
+}
+
+.msg {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
